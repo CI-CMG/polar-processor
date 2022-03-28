@@ -47,9 +47,25 @@
     <spatial4j.version>0.7</spatial4j.version>
     <commons-math3.version>3.6.1</commons-math3.version>
     <jupiter.version>5.7.1</jupiter.version>
+    <sign.serverId>gpg-sign</sign.serverId>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
   </properties>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.3.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.7</version>
+      </plugin>
+    </plugins>
+  </reporting>
 
   <dependencies>
 
@@ -110,7 +126,7 @@
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
-          <version>${jacoco.version}</version>
+          <version>0.8.7</version>
         </plugin>
 
         <plugin>
@@ -134,7 +150,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>${javadoc.version}</version>
+          <version>3.3.1</version>
         </plugin>
 
       </plugins>
