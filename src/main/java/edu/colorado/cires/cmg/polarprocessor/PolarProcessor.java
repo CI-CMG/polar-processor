@@ -94,7 +94,7 @@ public class PolarProcessor {
     return new Coordinate(Precision.round(angle, PRECISION), Precision.round(distance, PRECISION));
   }
 
-  private static LinearRing preSplitTranslateLineString(LineString lineString, GeometryFactory geometryFactory, boolean arctic) {
+  private static LinearRing preSplitTranslateLineString(LinearRing lineString, GeometryFactory geometryFactory, boolean arctic) {
     Coordinate[] coordinates = new Coordinate[lineString.getNumPoints()];
     for (int n = 0; n < lineString.getNumPoints(); n++) {
       coordinates[n] = preSplitTranslateCoordinate(lineString.getCoordinateN(n), arctic);
