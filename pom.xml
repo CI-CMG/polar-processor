@@ -230,6 +230,9 @@
             <version>6.5.0</version>
             <configuration>
               <failBuildOnAnyVulnerability>true</failBuildOnAnyVulnerability>
+              <suppressionFiles>
+                <suppressionFile>${project.basedir}/owasp-dep-check-suppression.xml</suppressionFile>
+              </suppressionFiles>
             </configuration>
             <executions>
               <execution>
