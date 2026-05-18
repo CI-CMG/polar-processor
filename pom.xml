@@ -43,7 +43,7 @@
 
   <properties>
     <jacoco.version>0.8.7</jacoco.version>
-    <jts.version>1.18.2</jts.version>
+    <jts.version>1.20.0</jts.version>
     <spatial4j.version>0.8</spatial4j.version>
     <commons-math3.version>3.6.1</commons-math3.version>
     <jupiter.version>5.7.1</jupiter.version>
