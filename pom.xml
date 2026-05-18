@@ -31,7 +31,7 @@
     <connection>scm:git:https://github.com/CI-CMG/polar-processor.git</connection>
     <developerConnection>scm:git:https://github.com/CI-CMG/polar-processor.git</developerConnection>
     <url>https://github.com/CI-CMG/polar-processor</url>
-    <tag>HEAD</tag>
+    <tag>2.1</tag>
   </scm>
 
   <properties>
@@ -46,8 +46,8 @@
     <nvdApiKey>${env.NVD_API_KEY}</nvdApiKey>
     <ossIndexUsername>${env.OSS_INDEX_USERNAME}</ossIndexUsername>
     <ossIndexPassword>${env.OSS_INDEX_PASSWORD}</ossIndexPassword>
-    <git.username/>
-    <git.password/>
+    <git.username />
+    <git.password />
   </properties>
 
   <reporting>
